@@ -1,31 +1,33 @@
-
 #include <iostream>
 
 using namespace std;
 
 int main()
 {
-    double a,b;
+    double x,y;
     char h;
-    cout << "Enter two numbers: " << endl;
-    cin >> a >> b;
+    cout<<"Enter two numbers: " ;
+    cin>>x>>y;
     
-    cout<<"Enter operator: ";
+    cout<<"Enter operator\n+ for sum,\n* for multiplication,\na for average,\n- for sub,\n/ for division\n  ";
     cin>>h;
-    
-    if( h=='*' )
-    cout << a*b;
+
+    if(h== '*')
+    cout<<x*y;
     
     else if(h=='+')
-    cout << a+b;
+    cout<<x+y;
     
-    else if(h=='-')
-    cout << a-b;
+    else if(h=='-' )
+    cout<<x-y;
     
-    else if(h=='/')
-    cout << a/b;
+    else if(h=='/' )
+    cout<<x/y;
+    
+    
+    else if(h=='a')
+    cout<<(x+y)/2;
+    
     
     return 0;
 }
-
-
