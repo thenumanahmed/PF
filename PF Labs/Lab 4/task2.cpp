@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-   int a, b, Add, Subtract, Multiply, Mod;
+    int a, b, Add, Subtract, Multiply, Mod;
 	float Divide;
 	cout << "Enter Two Integers: ";
 	cin >> a>> b;
