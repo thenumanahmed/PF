@@ -10,21 +10,21 @@ int main()
     cin >> num2;
     switch (num1 > num2)
     {
-    case 0:
-        switch (num1 == num2) {
-        case 1:
-            cout << endl << "Both numbers are equal. " << endl;
-            break;
         case 0:
-            cout << endl << "The number " << num1 << " is smaller " << endl;
-            cout << endl << "The number " << num2 << " is greater " << endl;
+            switch (num1 == num2) {
+                case 1:
+                    cout << endl << "Both numbers are equal. " << endl;
+                    break;
+                case 0:
+                    cout << endl << "The number " << num1 << " is smaller " << endl;
+                    cout << endl << "The number " << num2 << " is greater " << endl;
+                    break;
+            }
             break;
-        }
-        break;
-    case 1:
-        cout << endl << "The number " << num2 << " is smaller " << endl;
-        cout << endl << "The number " << num1 << " is greater " << endl;
-        break;
+        case 1:
+            cout << endl << "The number " << num2 << " is smaller " << endl;
+            cout << endl << "The number " << num1 << " is greater " << endl;
+            break;
     }
     return 0;
 }
