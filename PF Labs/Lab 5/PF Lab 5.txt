@@ -1,0 +1,54 @@
+#include<iostream>
+#include<iomanip>
+#include<conio.h>
+#include<math.h>
+using namespace std;
+int main()
+{
+	float y = 0.1;
+	cout << setw(12) << setfill('*') << 9997 << endl;
+	
+	cout << fixed << setprecision(3) << y << endl;
+	cout << scientific << y << endl;
+
+
+
+
+
+	/*double no = 0.100, power = 1.000;
+	cout << fixed << setprecision(3) << no << endl;
+	cout << fixed << setprecision(3) << scientific << 0.100 << endl;
+	*/
+
+	//cout << setw(3) << setfill("9");
+	//cout << setw(7) << setfill("7");
+
+	//cout << fixed << setprecision(4) << 10.0 / 100.0;
+	
+
+
+
+	/*
+	const double PI = 3.1416;
+	double angle, radian;
+	cout << "Input angle in degrees: ";
+	cin >> angle;
+	radian = angle*(PI/180);
+	cout << "\nAngle in radian is: " << radian << endl;
+	*/
+
+	/*
+	float c, f;
+	cout << "Enter Temperature in Celsius: ";
+	cin >> c;
+	f = (9.0/5.0)*c +32;
+	cout << "\nTemperature in fahrenheit is: "<<f <<endl ;
+	*/
+
+
+
+
+
+	return 0;
+
+}
